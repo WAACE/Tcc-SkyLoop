@@ -17,6 +17,7 @@
 					<li><a href="#">Sobre</a></li>
 					<li><a href="#">Professores</a></li>
 					<li><a href="#">Contato</a></li>
+					<li><a href="#">Trabalhos</a></li>
 				</ul>
 			</nav>
 		</div>
