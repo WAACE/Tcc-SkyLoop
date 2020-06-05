@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-	<meta charset="utf-8">
-	<title>Tcc</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-<body>
-	<div class="container">
-		<div class="cabecalho">
-			<div>
-				<img class="logo" src="img/tbbt.jpg">
+	<head>
+		<meta charset="utf-8">
+		// Adicionado o viewport, para deixar a página responsivel.
+		<meta name="viewport" content="width=device-width, initial-sacale=1.0">
+		// Alterado o titúlo da página.
+		<title> SkyLoop - Início </title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="cabecalho">
+				<div>
+					// Alteração na logo provisoria.
+					<img class="logo" src="img/sky.png">
+				</div>
+				<nav>
+					<ul>
+						// Alterações nos itens do menu.
+						<li><a href="inicio.php"> Início </a></li>
+						<li><a href="trabalhos.php"> Trabalhos </a></li>
+						<li><a href="sobre.php"> Sobre </a></li>					
+					</ul>
+				</nav>
 			</div>
-			<nav>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Sobre</a></li>
-					<li><a href="#">Professores</a></li>
-					<li><a href="#">Contato</a></li>
-					<li><a href="#">Trabalhos</a></li>
-				</ul>
-			</nav>
 		</div>
-	</div>
-</body>
+	</body>
 </html>
