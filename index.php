@@ -9,7 +9,7 @@
       	<meta name="keywords" content="sites, web, desenvolvimento">
       	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<!-- Título da Página -->
-		<title> SkyLoop - Sua vida escolar na palma da sua mão ! </title>
+		<title> SkyLoop - Sua vida escolar na palma da sua mão! </title>
 		<!-- Links da Página -->
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
@@ -28,6 +28,18 @@
 						<li><a href="#">Contato</a></li>	
 					</ul>
 				</nav>
+			</div>
+			<!-- São DIV's e Classes novas -->
+			<div class="ajuda">
+				<div>
+					<img class="imagem" src="assets/img/ajuda.jpg">
+				</div>
+				<div>
+					<h1 class="principal"> A ajuda está aqui a seu favor!</h1>
+				</div>
+			</div>
+			<div class="rodape">
+				Todos os direitos reservado				
 			</div>
 		</div>
 	</body>
