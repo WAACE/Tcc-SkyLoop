@@ -15,43 +15,43 @@ body {
 }
 /*Cabecalho*/
 .cabecalho {
-	max-width: 1280px;
 	width: 100%;
-	margin: auto;
-	border: 1px solid #111;
+	height: 150px;
 	background-color: #f2f2f2;
 	position: relative;
-	padding: 10px;
+	border-bottom: 6px solid tomato;
 }
 /*Logo*/
 .logo {
 	display: block;
 	width: 100px;
 	height: 100px;
-	line-height: 100px;
-	border-radius: 50%;
-	border: 1px solid #111;
 	margin-left: 10%;
+	position: absolute;
+	top: 20%;
+	cursor: pointer;
 }
 /*Menu*/
+nav {
+	width: 100%;
+}
 nav ul {
 	display: inline-block;
 	position: absolute;
 	top: 50%;
-	right: 10%;
+	right: 5%;
 }
 nav ul li {
 	display: inline;
-	padding: 0px 15px;
+	padding: 0px 10px;
 }
 nav ul li a {
-	border: 1px solid #111;
 	color: #111;
 	padding: 10px 15px;
 	border-radius: 5px;
+	transition: .8s;
 }
 nav ul li a:hover {
-	background-color: tomato;
-	color: #FFF;
-	transition: .8s;
+	border-bottom: 5px solid tomato;
+	color: #111;
 }
