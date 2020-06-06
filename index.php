@@ -12,6 +12,7 @@
 		<title> SkyLoop - Sua vida escolar na palma da sua mão! </title>
 		<!-- Links da Página -->
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container">
