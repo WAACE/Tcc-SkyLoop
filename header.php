@@ -23,10 +23,10 @@
 				</div>
 				<nav>
 					<ul>
-						<li><a href="#">Sobre</a></li>
-						<li><a href="#">Trabalhos</a></li>
-						<li><a href="#">Professores</a></li>
-						<li><a href="#">Contato</a></li>	
+						<li><a href="<?php echo 'Sobre.php'?>">Sobre</a></li>
+						<li><a href="<?php echo 'trabalhos.php'?>">Trabalhos</a></li>
+						<li><a href="<?php echo 'Professores.php'?>">Professores</a></li>
+						<li><a href="<?php echo 'Contato.php'?>">Contato</a></li>	
 					</ul>
 				</nav>
 			</div>
