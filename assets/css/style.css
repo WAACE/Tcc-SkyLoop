@@ -10,7 +10,7 @@
 /* Body */
 
 body {
-	background-color: #1B1A1A;
+	background-color: #FAFAFA;
 	color: #FFF;
 }
 
@@ -25,8 +25,8 @@ body {
 .cabecalho {
 	width: 100%;
 	margin: auto;
-	height: 120px;
-	background-color: #232323;
+	height: 180px;
+	background-color: #0047AB;
 	position: relative;
 }
 
@@ -37,6 +37,8 @@ body {
 	height: 120px;
 	margin-left: 10%;
 	cursor: pointer;
+	position: absolute;
+	top: 20%;
 }
 /*Menu*/
 nav {
@@ -57,12 +59,12 @@ nav ul li a {
 	padding: 10px 15px;
 	border-radius: 5px;
 	transition: .8s;
-	border-bottom: 5px solid #e63946;
+	border-bottom: 5px solid #FFF;
 }
 nav ul li a:hover {
-	border-bottom: 5px solid #FFF;
-	color: #FFF;
-	background-color: tomato;
+	border-bottom: 5px solid #D9DCE1;
+	color: #111;
+	background-color: #FFF;
 }
 .clear {
 	clear: both;
