@@ -23,11 +23,12 @@
 				</div>
 				<nav>
 					<ul>
+						<li><a href="<?php echo 'index.php'?>">Inicio</a></li>
 						<li><a href="<?php echo 'Sobre.php'?>">Sobre</a></li>
 						<li><a href="<?php echo 'trabalhos.php'?>">Trabalhos</a></li>
 						<li><a href="<?php echo 'Professores.php'?>">Professores</a></li>
-						<li><a href="<?php echo 'Contato.php'?>">Contato</a></li>	
-					</ul>
+						<li><a href="<?php echo 'Contato.php'?>">Contato</a></li>
+					</ul>	
 				</nav>
 			</div>
 			<div class="clear"></div>
