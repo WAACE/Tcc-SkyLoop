@@ -27,7 +27,7 @@
 						<li><a href="<?php echo 'Sobre.php'?>">Sobre</a></li>
 						<li><a href="<?php echo 'trabalhos.php'?>">Trabalhos</a></li>
 						<li><a href="<?php echo 'Professores.php'?>">Professores</a></li>
-						<li><a href="<?php echo 'Contato.php'?>">Contato</a></li>
+						<li><a href="<?php echo 'Contato.php?CRIADORES=0'?>">Contato</a></li>
 					</ul>	
 				</nav>
 			</div>
