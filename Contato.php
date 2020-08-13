@@ -24,9 +24,9 @@
 
 ?>
 
-<?php foreach ($CRIADORES as $chave => $valor) { ?>
+<?php foreach ($CRIADORES as $Key => $valor) { ?>
 	<li>
-	<a href="<?php echo 'Contato.php?CRIADORES=' . $chave;?>" >
+	<a href="<?php echo 'Contato.php?CRIADORES=' . $Key;?>" >
 		<!-- TITULO DO LINK-->
 		<h2><center><font color="#737373"><?php echo $valor['nome']; ?></font></center></h2>
 	</a>

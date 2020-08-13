@@ -1,17 +1,12 @@
 ﻿<?php 
 	include 'header.php';
 ?>
+<?php 
+	require_once 'ConnectMysql.php';
+?>
 	<form action="#" method="POST">
 		<center>
-			<table>
-				<tr>
-					<td>
-						<p>Título</p>
-					</td>
-					<td>
-						<input type="text" name="nome-do-agendamento" placeholder="ex: Atividade avaliativa">
-					</td>
-				</tr>
+			<table>				
 				<tr>
 					<td>
 						<p>Tema</p>
@@ -29,7 +24,6 @@
 							<select name="disciplina">
 								<option>Selecione</option>
 								<option value="bio">Biologia</option>
-								<option value="ds">DS</option>
 								<option value="edf">Educação Física</option>
 								<option value="filo">Filosofia</option>
 								<option value="fisc">Física</option>
@@ -39,10 +33,11 @@
 								<option value="pt">Língua Portuguesa</option>
 								<option value="mat">Matemática</option>
 								<option value="pc">PC</option>
-								<option value="ptcc">PTCC</option>
 								<option value="qui">Química</option>
-								<option value="rcd">RCD</option>
 								<option value="soc">Sociologia</option>
+								<option value="ds">DS</option>
+								<option value="ptcc">PTCC</option>
+								<option value="rcd">RCD</option>
 								<option value="tpm">TPM</option>
 							</select>
 						</div>
@@ -95,7 +90,7 @@
 						
 					</td>
 					<td>
-						<label>Mínima&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+						<label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mínima&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
 						<label>Máxima</label>
 					</td>
 				</tr>

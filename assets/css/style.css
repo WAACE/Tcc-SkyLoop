@@ -115,8 +115,9 @@ nav ul li a:hover {
 .box-work h2{
 	padding: 10px 0;
 	text-align: center;
-}
 	color: #111;
+}
+	
 
 .data p{
 	font-family: Arial;
@@ -163,7 +164,7 @@ a:active {
 }
 
 table tr td {
-	padding: 5px
+	padding: 5px;
 }
 
 p {
@@ -173,7 +174,7 @@ p {
 label {
 	color: #111;
 	margin: 0;
-	padding: o;
+	padding: 0;
 }
 input[type=text] {
 	background: none;

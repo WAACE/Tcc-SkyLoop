@@ -1,15 +1,18 @@
 <?php 
 	include 'header.php';
 ?>
+<?php 
+	require_once 'ConnectMysql.php';
+?>
 	<form action="#" method="POST">
 		<center>
 			<table>
 				<tr>
 					<td>
-						<p>Título</p>
+						<p>Tema</p>
 					</td>
 					<td>
-						<input type="text" name="nome-do-agendamento" placeholder="ex: Atividade avaliativa">
+						<input type="text" name="tema" placeholder="ex: Segunda Guerra Mundial">
 					</td>
 				</tr>
 				<tr>
@@ -50,7 +53,7 @@
 				</tr>
 				<tr>
 					<td>
-						<p>Data de emissão</p>
+						<p>Data da prova</p>
 					</td>
 					<td>
 						<p>
@@ -58,14 +61,7 @@
 						</p>
 					</td>
 				</tr>
-				<tr>
-					<td>
-						<p>Data de entrega</p>
-					</td>
-					<td>
-						<input type="date" name="data-do-agendamento">
-					</td>
-				</tr>
+				
 				<tr>
 					<td>
 						<p>Equipe</p>
@@ -81,35 +77,7 @@
 							</select>
 						</div>
 					</td>
-				</tr>
-				<tr>
-					<td>
-						
-					</td>
-					<td>
-						<label>Mínima&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-						<label>Máxima</label>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<p>Nota</p>
-					</td>
-					<td>
-						<span>
-							<input type="number" name="nota-minima">&nbsp;
-							<input type="number" name="nota-minima">
-						</span>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<p>Descrição</p>
-					</td>
-					<td>
-						<textarea name="descricao" placeholder=" Aqui você pode digitar informações adicionais ao agendamento"></textarea>
-					</td>
-				</tr>
+				</tr>								
 			</table>
 			<input class="botoes" type="submit" name="cadastrar-agendamento" value="Cadastrar">
 			<input class="botoes" type="reset" name="limpar" value="Limpar">
