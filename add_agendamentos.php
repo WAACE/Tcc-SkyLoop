@@ -4,8 +4,13 @@
 <?php 
 	require_once 'ConnectMysql.php';
 ?>
+	<form action="ProfessorAdd.php" method="POST">
+					<input id="ADDVoltar" type="submit" name="voltar" value="Voltar">		
+	</form>
+	
 	<form action="#" method="POST">
 		<center>
+			<p class="titulos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ADICIONAR AGENDAMENTO </p>
 			<table>
 				<tr>
 					<td>
@@ -43,6 +48,8 @@
 						</div>
 					</td>
 				</tr>
+				<!--
+							OBS: PUXAR DO PHP!
 				<tr>
 					<td>
 						<p>Professor(a)</p>
@@ -50,7 +57,7 @@
 					<td>
 						<input type="text" name="professor" placeholder="ex: Della Cross">
 					</td>
-				</tr>
+				</tr>-->
 				<tr>
 					<td>
 						<p>Data da prova</p>
@@ -61,7 +68,18 @@
 						</p>
 					</td>
 				</tr>
-				
+				<!-- 
+						OBS: PUXAR A DATA PELO PHP!;
+				<tr>
+					<td>
+						<p>Data de emissão</p>
+					</td>
+					<td>
+						<p>
+							<input type="date" name="data-de-emissao">
+						</p>
+					</td>
+				</tr>-->
 				<tr>
 					<td>
 						<p>Equipe</p>
@@ -81,8 +99,10 @@
 			</table>
 			<input class="botoes" type="submit" name="cadastrar-agendamento" value="Cadastrar">
 			<input class="botoes" type="reset" name="limpar" value="Limpar">
+			
 		</center>
-	</form>
+</form>
+				
 <?php 
 	require_once 'footer.php';
 ?>

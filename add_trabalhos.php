@@ -4,8 +4,13 @@
 <?php 
 	require_once 'ConnectMysql.php';
 ?>
+	<form action="ProfessorAdd.php" method="POST">
+					<input id="ADDVoltar" type="submit" name="voltar" value="Voltar">		
+	</form>
+	
 	<form action="#" method="POST">
 		<center>
+			<p class="titulos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ADICIONAR TRABALHO </p>
 			<table>				
 				<tr>
 					<td>
@@ -43,14 +48,20 @@
 						</div>
 					</td>
 				</tr>
-				<tr>
+				<!--
+							OBS: PUXAR DO PHP!<tr>
 					<td>
 						<p>Professor(a)</p>
 					</td>
 					<td>
 						<input type="text" name="professor" placeholder="ex: Della Cross">
 					</td>
-				</tr>
+				</tr>-->
+
+
+
+				<!-- 
+						OBS: PUXAR A DATA PELO PHP!;
 				<tr>
 					<td>
 						<p>Data de emissão</p>
@@ -60,7 +71,9 @@
 							<input type="date" name="data-de-emissao">
 						</p>
 					</td>
-				</tr>
+				</tr>-->
+
+
 				<tr>
 					<td>
 						<p>Data de entrega</p>

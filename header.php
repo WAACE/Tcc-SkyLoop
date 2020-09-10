@@ -19,15 +19,16 @@
 			<div class="cabecalho">
 				<div>
 					<!--Alteração na logo provisoria.-->
-					<img class="logo" src="assets/img/sky.png">
+					<a class="estilo-da-logo" href="<?php echo 'index.php'?>" >
+					<img class="logo" src="assets/img/sky.png" > </a>
 				</div>
 				<nav>
 					<ul>
 						<li><a href="<?php echo 'index.php'?>">Inicio</a></li>
-						<li><a href="<?php echo 'Sobre.php'?>">Sobre</a></li>
+						<!-- <li><a href="<?php echo 'Sobre.php'?>">Sobre</a></li> -->
 						<li><a href="<?php echo 'trabalhos.php'?>">Trabalhos</a></li>
-						<li><a href="<?php echo 'Professores.php'?>">Professores</a></li>
-						<li><a href="<?php echo 'Contato.php?CRIADORES=0'?>">Contato</a></li>
+						<li><a href="<?php echo 'ProfessoresLogin.php'?>">Professores</a></li>
+						<!-- <li><a href="<?php echo 'Contato.php?CRIADORES=0'?>">Contato</a></li> -->
 					</ul>	
 				</nav>
 			</div>
